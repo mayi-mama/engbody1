@@ -1,2 +1,54 @@
 @charset "utf-8";
 
+:root {
+    --main-color: #EB51C2;
+}
+
+/*全体*/
+
+body{
+    font-family: 'Josefin Sans', sans-serif, 'Montserrat','Noto Sans JP', 'Hiragana Sans', Arial, Meiryo, 'Hiragino Kaku Gothic ProN';
+    font-size: 16px;
+    --text-color: #111111;
+    font-feature-settings:"palt";
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+/*レイアウト*/
+.container{
+    max-width: 1170px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.section{
+    padding: 20px 0;
+}
+
+.section--color-reverse .section__inner{
+    padding: 40px 0;
+    background-color: var(--main-color);
+}
+
+.section__heading{
+    margin-bottom: 40px;
+}
+
+.section-border-top{
+    transform: translateY(1px);
+}
+
+.section-border-bottom{
+    transform: translateY(-1px);
+}
+
+/**/
+
+
+
+
