@@ -150,7 +150,7 @@ img{
     display: none;
 }
 
-.header-cta-btn{
+.header__cta-btn{
     font-size: 12px;
     padding: 12px 15px;
 }
@@ -298,3 +298,98 @@ img{
 }
 
 /*イントロ*/
+
+.intro{
+    margin-top: -20px;
+    padding: 0 20px;
+}
+
+.intro__title{
+    text-align: center;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--main-color);
+}
+
+.intro__subtitle{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.intro__subtitle span{
+    color: var(--main-color);
+}
+
+.intro__text{
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/*ABOUT*/
+
+.about-list{
+    display: grid;
+    row-gap: 40px;
+}
+
+.about-box__img-wrapper{
+    width: 100%;
+}
+
+.about-box__desc{
+    position: relative;
+    margin: -10px 20px;
+    padding: 40px 30px 30px 30px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 10%);
+}
+
+.about-box__subtitle{
+    font-size: 18px;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+.about-box__subtitle--food{
+    color: #00B21B;
+}
+
+.about-box__title{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 22px;
+}
+
+.about-box__text{
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.about__btn{
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+/*Trainer*/
+.tab-area{
+    display:grid;
+    margin-bottom: 20px;
+    cursor: pointer;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tab{
+    font-size: 16px;
+    color:#FFFFFF;
+    text-align: center;
+    padding: 5px 0 10px 0;
+}
