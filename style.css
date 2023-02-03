@@ -40,11 +40,13 @@ img{
 }
 
 .section-border-top{
-    transform: translateY(1px);
+    transform: translateY(40px);
+    width: 100%;
 }
 
 .section-border-bottom{
-    transform: translateY(-1px);
+    transform: translateY(-40px);
+    width: 100%;
 }
 
 /*メインビジュアル　スクロールエフェクト*/
