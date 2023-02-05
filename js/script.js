@@ -25,7 +25,13 @@ $(function(){
 	  fadeUpEffect();
 	});
 
-
+	/*タブの切り替え*/
+	$('.tab').on('click', function() {
+		$('.tab--active').removeClass('tab--active');
+		$(this).addClass('tab--active');
+		var index = $('.tab').index(this);
+		$('.tab-content').eq(index).addClass('tab--active');
+	  });
 });
 
 /*背景が伸びてテキストが表示される*/
