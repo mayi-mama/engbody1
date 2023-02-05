@@ -1,6 +1,30 @@
 $(function(){
-	/*スクールエフェクト*/
-	
+	/*スクールするとボタンがでる*/
+	$(window).scroll(function(){
+		if($(this).scrollTop() > 200){
+			$('header').addClass('header--active');
+		}else{
+			$('header').removeClass('header--active');
+		}
+
+	});
+
+	/*スクロールエフェクト*/
+	function fadeUpEffect(){
+
+	$('.fadeUpEffect').each(function(){ 
+	  var elemPos = $(this).offset().top + 100;
+	  var scroll = $(window).scrollTop();
+	  var windowHeight = $(window).height();
+	  if (scroll >= elemPos - windowHeight){
+	  $(this).addClass('fadeUp');
+	  }
+	  });
+  }
+	$(window).scroll(function (){
+	  fadeUpEffect();
+	});
+
 
 });
 
