@@ -474,17 +474,17 @@ img{
     background-color: #FFFFFF;
 }
 
-.swiper-buttom-prev{
+.swiper-button-prev{
     left: -20px;
 }
 
-.swiper-buttom-next{
+.swiper-button-next{
     right: -20px;
 }
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
-  font-size: 24px;
+  font-size: 20px;
   color: var(--main-color);
 }
 
