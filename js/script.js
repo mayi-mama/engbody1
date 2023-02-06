@@ -32,6 +32,18 @@ $(function(){
 		var index = $('.tab').index(this);
 		$('.tab-content').eq(index).addClass('tab--active');
 	  });
+
+	/*swiper*/
+	const loop = new Swiper(".swiper", {
+		 loop: true,
+		pagination: {
+			el: ".swiper-pagination"
+			},
+			navigation: {
+			  nextEl: ".swiper-button-next",
+			  prevEl: ".swiper-button-prev"
+			}
+		});
 });
 
 /*背景が伸びてテキストが表示される*/
