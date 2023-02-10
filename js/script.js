@@ -44,6 +44,13 @@ $(function(){
 			  prevEl: ".swiper-button-prev"
 			}
 		});
+	/*スクロールボタン*/
+	$('.price-list').scroll(function(){
+		if($(this).scrollLeft() > 20){
+			$('.price-list__scroll').fadeOut();
+		}
+
+	});
 });
 
 /*背景が伸びてテキストが表示される*/
