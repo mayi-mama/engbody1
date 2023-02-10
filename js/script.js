@@ -49,6 +49,10 @@ $(function(){
 		if($(this).scrollLeft() > 20){
 			$('.price-list__scroll').fadeOut();
 		}
+	});
+	/*FAQのアコーディオン*/
+	$('.accordion__question').click(function(){
+		$(this).next('.accordion__answer').slideToggle(200);
 
 	});
 });
