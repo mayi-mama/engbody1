@@ -55,6 +55,21 @@ $(function(){
 		$(this).next('.accordion__answer').slideToggle(200);
 
 	});
+
+	/*ページトップに戻る*/
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 300) {
+		  $('.page-top').fadeIn();
+		} else {
+		  $('.page-top').fadeOut();
+		}
+	  });
+	  $('.page-top').on('click', function () {
+		$('body,html').animate({
+		  scrollTop: 0
+		}, 200);
+		return false;
+	  });
 });
 
 /*背景が伸びてテキストが表示される*/

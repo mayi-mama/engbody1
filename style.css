@@ -644,6 +644,63 @@ img{
     display: block;
   }
 
-  
+/*CTA*/
+.cta{
+    padding-top: 30px;
+}
+
+.cta__body{
+    text-align: center;
+    padding:30px 20px;
+    background-color: var(--main-color);
+}
+
+.cta__title{
+    font-size:26px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom:10px;
+}
+
+/*footer*/
+.footer{
+    display: grid;
+    color:#FFFFFF;
+    padding: 50px 20px;
+    background-color: #111111;
+    place-items: center;
+}
+
+.page-top{
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+    z-index: 100;
+}
+
+.page-top__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.page-top__icon{
+    font-size: 24px;
+    color:var(--main-color);
+}
+
+.page-top__icon:hover{
+    opacity: 0.8;
+}
 
 
