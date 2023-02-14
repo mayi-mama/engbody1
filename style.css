@@ -704,3 +704,50 @@ img{
 }
 
 
+/*レスポンシブデザイン*/
+
+/*タブレット用レスポンシブデザイン　600以上*/
+@media screen and (min-width:600px){
+    .header__cta-btn{
+        width: 200px;
+    }
+
+    /*メインビジュアル*/
+
+.mv{
+    height: 500px;
+    padding-left: 5%;;
+}
+
+.mv__img{
+    height: 500px;
+}
+
+/*イントロ*/
+
+.intro__title-br{
+    display: none;
+}
+
+
+.intro__text{
+    max-width: 720px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*トレーナー*/
+
+.person-list{
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+}
+
+/*ウエブ用レスポンシブデザイン　1025px以上*/
+@media screen and (min-width: 1025px){
+    
+    
+}
